@@ -1,4 +1,4 @@
-document.body.oncontextmenu = function () {return false;}
+document.body.oncontextmenu = function () {return false;};
 
 // .questionクラスを持つ要素を全て取得する
 const questions = document.querySelectorAll(".question");
