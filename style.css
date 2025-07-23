@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 1rem;
+}
+
+.faq {
+  width: 800px;
+  /* margin-inline: auto; */
+  margin-block-end: 1rem; /*margin-bottomと同じ*/
+}
+
+.question {
+  background-color: #ccf;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.answer {
+  padding: 0.5rem;
+  display: none;
+}
+
+h2 {
+  margin-block-end: 2rem;
+}
+
+.answer.show {
+  display: block;
+}
