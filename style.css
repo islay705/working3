@@ -17,12 +17,12 @@
 }
 
 .question {
-  background-color: #ccf;
+  background-color: orange;
   display: flex;
   justify-content: space-between;
   padding: 0.5rem;
-  border-radius:15px;
-  background-color:purple;
+  border-radius: 15px;
+  
 }
 
 .answer {
